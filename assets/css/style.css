@@ -36,11 +36,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "DINOT-Regular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #0e1b4d;
+  color: #000000;
 }
 
 .main-page {
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #000000;
 }
 
 .section-with-bg {
@@ -707,13 +707,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: rgba(0, 93, 132, 0.76);
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
   text-align: center;
   padding-top: 16px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #speakers .speaker .details h3 {
@@ -756,7 +758,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #speakers-details .details h2 {
-  color: #112363;
+  color: #005d84;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -791,13 +793,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #speakers-details .details p {
-  color: #112363;
+  color: #00000;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 .keynotes {
     margin-bottom: 10%;
+}
+
+.keynote-details img {
+    margin-bottom: 10%;
+}
+
+.keynote-details h4 span {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+}
+
+.keynote-details h2 {
+    text-align: center;
+}
+
+.keynote-details p {
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -825,7 +846,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: #64b98a;
   color: #fff;
   padding: 10px 100px;
 }
@@ -917,14 +938,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #schedule .schedule-item h4 span {
   font-style: italic;
-  color: #19328e;
+  color: #000000;
+  text-align: center;
   font-weight: normal;
   font-size: 16px;
 }
 
 #schedule .schedule-item p {
   font-style: italic;
-  color: #152b79;
+  color: #00000;
   margin-bottom: 0;
 }
 
