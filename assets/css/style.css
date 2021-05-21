@@ -648,7 +648,7 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  /*background: url("../img/about-bg.jpg");*/
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -820,6 +820,7 @@ h1, h2, h3, h4, h5, h6 {
 .keynote-details p {
     text-align: justify;
 }
+
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -1181,7 +1182,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #e0072f;
+  color: #ef4348;
   transition: 0.3s;
 }
 
@@ -1280,7 +1281,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #ef4348;
 }
 
 @media (max-width: 460px) {
@@ -1342,7 +1343,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #ef4348;
 }
 
 #buy-tickets #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
@@ -1360,7 +1361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #ef4348;
 }
 
 /*--------------------------------------------------------------
@@ -1491,7 +1492,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #ef4348;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1652,7 +1653,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: #ef4348;
 }
 
 #footer .copyright {
