@@ -751,6 +751,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #speakers .speaker:hover .details {
   bottom: 0;
+  background: rgba(248,35,74,0.76);
 }
 
 #speakers-details {
@@ -850,6 +851,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #64b98a;
   color: #fff;
   padding: 10px 100px;
+}
+
+#schedule .nav-tabs a:hover {
+  background-color: #f8234a;
 }
 
 @media (max-width: 991px) {
