@@ -457,7 +457,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  /*background: url(../img/hero-bg.jpg) top center;*/
+  background: rgba(44,62,80,255);
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -471,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(44,62,80,255);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -500,14 +501,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  color: #fff;
+  /*color: #fff;*/
+  color: #fdc654;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#hero h1 span {
+/* #hero h1 span {
+  color: #64b98a;
+} */
+
+#hero-h1-eng {
+  color: #e11751;
+}
+
+#hero-h1-cym {
   color: #64b98a;
 }
 
