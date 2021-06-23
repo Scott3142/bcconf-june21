@@ -890,6 +890,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f8234a;
 }
 
+#jj-rec {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #ffffff;
+}
+
 @media (max-width: 991px) {
   #schedule .nav-tabs a {
     padding: 8px 60px;
